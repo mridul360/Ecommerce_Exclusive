@@ -18,6 +18,12 @@ const Products = () => {
             </button>
           </div>
         </div>
+        <div>
+          <div className="bg-[#F5F5F5] pt-3 pb-[35px] px-10">
+
+          </div>
+          <div></div>
+        </div>
       </Containar>
     </section>
   );
