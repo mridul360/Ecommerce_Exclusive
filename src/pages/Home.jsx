@@ -5,6 +5,7 @@ import Banner from '../components/Banner/Banner'
 import Categories from '../components/Categories/Categories'
 import Products from '../components/Products/Products'
 import Experience from '../components/Experience/Experience'
+import OurProducts from '../components/OurProducts/OurProducts'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Categories />
         <Products />
         <Experience/>
+        <OurProducts/>
     </>
   )
 }
