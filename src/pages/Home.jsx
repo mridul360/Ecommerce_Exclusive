@@ -7,6 +7,8 @@ import Products from '../components/Products/Products'
 import Experience from '../components/Experience/Experience'
 import OurProducts from '../components/OurProducts/OurProducts'
 import Arrival from '../components/Arrival/Arrival'
+import Fast from '../components/Fast/Fast'
+import Footer from '../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
         <Experience/>
         <OurProducts/>
         <Arrival />
+        <Fast/>
+        <Footer />
     </>
   )
 }
