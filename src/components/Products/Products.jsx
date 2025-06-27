@@ -9,9 +9,9 @@ import { FaStar } from "react-icons/fa";
 
 const Products = () => {
   return (
-    <section>
+    <section className="pb-[122px] ">
       <Containar>
-        <div className="flex items-end justify-between">
+        <div className="flex items-end justify-between mb-15">
           <div>
             <MainHeading>This Month</MainHeading>
             <SubHeading>Best Selling Products</SubHeading>
@@ -22,14 +22,15 @@ const Products = () => {
             </button>
           </div>
         </div>
-        <div>
-          <div className="bg-[#F5F5F5] w-[270px] px-[63px] py-[52px] relative">
+        <div className="flex items-center gap-[30px]">
+          <div >
+          <div className="bg-[#F5F5F5] w-[270px] px-[63px] py-[52px] rounded relative">
             <div className="flex items-center justify-center">
               <img src={coat} alt="" />
             </div>
             <div>
-              <div className="absolute top-0 right-0">
-                <div className="rounded-full w-[30px] h-[30px] bg-white flex items-center justify-center mt-2">
+              <div className="absolute top-[12px] right-[12px]">
+                <div className="rounded-full w-[30px] h-[30px] bg-white flex items-center justify-center ">
                   <CiHeart size={20} />
                 </div>
                 <div className="rounded-full w-[30px] h-[30px] bg-white flex items-center justify-center mt-2">
@@ -48,9 +49,97 @@ const Products = () => {
               <FaStar />
               <FaStar />
               <FaStar />
-
             </div>
           </div>
+        </div>
+        <div >
+          <div className="bg-[#F5F5F5] w-[270px] px-[63px] py-[52px] rounded relative">
+            <div className="flex items-center justify-center">
+              <img src={coat} alt="" />
+            </div>
+            <div>
+              <div className="absolute top-[12px] right-[12px]">
+                <div className="rounded-full w-[30px] h-[30px] bg-white flex items-center justify-center ">
+                  <CiHeart size={20} />
+                </div>
+                <div className="rounded-full w-[30px] h-[30px] bg-white flex items-center justify-center mt-2">
+                  <IoEyeOutline />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-4">
+            <h2 className="font-primary leading-[24px]">The north coat</h2>
+            <p className="font-primary text-base leading-5 font-semibold text-primary mt-2" >$260</p>
+
+            <div className="flex item-center  text-[#FFAD33] mt-2">
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+            </div>
+          </div>
+        </div>
+        <div >
+          <div className="bg-[#F5F5F5] w-[270px] px-[63px] py-[52px] rounded relative">
+            <div className="flex items-center justify-center">
+              <img src={coat} alt="" />
+            </div>
+            <div>
+              <div className="absolute top-[12px] right-[12px]">
+                <div className="rounded-full w-[30px] h-[30px] bg-white flex items-center justify-center ">
+                  <CiHeart size={20} />
+                </div>
+                <div className="rounded-full w-[30px] h-[30px] bg-white flex items-center justify-center mt-2">
+                  <IoEyeOutline />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-4">
+            <h2 className="font-primary leading-[24px]">The north coat</h2>
+            <p className="font-primary text-base leading-5 font-semibold text-primary mt-2" >$260</p>
+
+            <div className="flex item-center  text-[#FFAD33] mt-2">
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+            </div>
+          </div>
+        </div>
+        <div >
+          <div className="bg-[#F5F5F5] w-[270px] px-[63px] py-[52px] rounded relative">
+            <div className="flex items-center justify-center">
+              <img src={coat} alt="" />
+            </div>
+            <div>
+              <div className="absolute top-[12px] right-[12px]">
+                <div className="rounded-full w-[30px] h-[30px] bg-white flex items-center justify-center ">
+                  <CiHeart size={20} />
+                </div>
+                <div className="rounded-full w-[30px] h-[30px] bg-white flex items-center justify-center mt-2">
+                  <IoEyeOutline />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-4">
+            <h2 className="font-primary leading-[24px]">The north coat</h2>
+            <p className="font-primary text-base leading-5 font-semibold text-primary mt-2" >$260</p>
+
+            <div className="flex item-center  text-[#FFAD33] mt-2">
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+            </div>
+          </div>
+        </div>
+        
         </div>
       </Containar>
     </section>
