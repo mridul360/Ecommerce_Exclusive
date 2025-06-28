@@ -144,9 +144,9 @@ const OurProducts = () => {
           <MainHeading>Our Products</MainHeading>
           <SubHeading>Explore Our Products</SubHeading>
         </div>
-        <div className="flex flex-wrap gap-y-[60px] justify-between mt-[60px]">
+        <div  className="flex bg-transparent flex-wrap  justify-between mt-[60px]">
           {ProductsData.slice(0, visible).map((product) => (
-            <div className="relative w-[270px]">
+            <div className=" mt-15  relative w-[270px]">
               <div className="absolute top-3 right-3 z-10">
                 <div
                   className="h-[34px] w-[34px] rounded-full bg-white flex justify-center items-center cursor-pointer">
@@ -159,7 +159,7 @@ const OurProducts = () => {
                   <FiEye size={16} color="black" />
                 </div>
               </div>
-              <div className="relative group ease-in-out duration-200 bg-products rounded flex justify-center items-center h-[250px]">
+              <div className="bg-[#F5F5F5] relative group ease-in-out duration-200 bg-products rounded flex justify-center items-center h-[250px]">
                 <img src={product.img} alt="" />
                 <div className="absolute left-0 bottom-0 w-full opacity-0 group-hover:opacity-[100%] ease-in-out duration-200">
                   <button className="w-full font-primary font-medium text-[16px] leading-6 text-white bg-black py-2 rounded-b cursor-pointer">
