@@ -5,10 +5,10 @@ import SubHeading from "../../layout/SubHeading";
 import { TiStarFullOutline } from "react-icons/ti";
 import { FaRegHeart } from "react-icons/fa6";
 import { FiEye } from "react-icons/fi";
-import ourproduct1 from "../../assets/Our-Product1.png";
-import ourproduct2 from "../../assets/Our-Product2.png";
-import ourproduct3 from "../../assets/Our-Product3.png";
-import ourproduct4 from "../../assets/Our-Product4.png";
+import ourproduct1 from "../../assets/product1.png";
+import ourproduct2 from "../../assets/product2.png";
+import ourproduct3 from "../../assets/product3.png";
+import ourproduct4 from "../../assets/product4.png";
 
 const OurProducts = () => {
   const [visible, setVisible] = useState(8);
@@ -17,121 +17,121 @@ const OurProducts = () => {
       img: ourproduct1,
       name: "Breed Dry Dog Food",
       price: "$100",
-      Sold: "(35)",
+      sold: "(35)",
     },
     {
       img: ourproduct2,
       name: "CANON EOS DSLR Camera",
       price: "$360",
-      Sold: "(95)",
+      sold: "(95)",
     },
     {
       img: ourproduct3,
       name: "ASUS FHD Gaming Laptop",
       price: "$700",
-      Sold: "(325)",
+      sold: "(325)",
     },
     {
       img: ourproduct4,
       name: "Curology Product Set ",
       price: "$500",
-      Sold: "(145)",
+      sold: "(145)",
     },
     {
       img: ourproduct1,
       name: "Breed Dry Dog Food",
       price: "$100",
-      Sold: "(35)",
+      sold: "(35)",
     },
     {
       img: ourproduct2,
       name: "CANON EOS DSLR Camera",
       price: "$360",
-      Sold: "(95)",
+      sold: "(95)",
     },
     {
       img: ourproduct3,
       name: "ASUS FHD Gaming Laptop",
       price: "$700",
-      Sold: "(325)",
+      sold: "(325)",
     },
     {
       img: ourproduct4,
       name: "Curology Product Set ",
       price: "$500",
-      Sold: "(145)",
+      sold: "(145)",
     },
     {
       img: ourproduct1,
       name: "Breed Dry Dog Food",
       price: "$100",
-      Sold: "(35)",
+      sold: "(35)",
     },
     {
       img: ourproduct2,
       name: "CANON EOS DSLR Camera",
       price: "$360",
-      Sold: "(95)",
+      sold: "(95)",
     },
     {
       img: ourproduct3,
       name: "ASUS FHD Gaming Laptop",
       price: "$700",
-      Sold: "(325)",
+      sold: "(325)",
     },
     {
       img: ourproduct4,
       name: "Curology Product Set ",
       price: "$500",
-      Sold: "(145)",
+      sold: "(145)",
     },
     {
       img: ourproduct1,
       name: "Breed Dry Dog Food",
       price: "$100",
-      Sold: "(35)",
+      sold: "(35)",
     },
     {
       img: ourproduct2,
       name: "CANON EOS DSLR Camera",
       price: "$360",
-      Sold: "(95)",
+      sold: "(95)",
     },
     {
       img: ourproduct3,
       name: "ASUS FHD Gaming Laptop",
       price: "$700",
-      Sold: "(325)",
+      sold: "(325)",
     },
     {
       img: ourproduct4,
       name: "Curology Product Set ",
       price: "$500",
-      Sold: "(145)",
+      sold: "(145)",
     },
     {
       img: ourproduct1,
       name: "Breed Dry Dog Food",
       price: "$100",
-      Sold: "(35)",
+      sold: "(35)",
     },
     {
       img: ourproduct2,
       name: "CANON EOS DSLR Camera",
       price: "$360",
-      Sold: "(95)",
+      sold: "(95)",
     },
     {
       img: ourproduct3,
       name: "ASUS FHD Gaming Laptop",
       price: "$700",
-      Sold: "(325)",
+      sold: "(325)",
     },
     {
       img: ourproduct4,
       name: "Curology Product Set ",
       price: "$500",
-      Sold: "(145)",
+      sold: "(145)",
     }
   ];
   const LoadData = () => {
@@ -182,7 +182,7 @@ const OurProducts = () => {
                     <TiStarFullOutline size={20} color="#FFAD33" />
                     <TiStarFullOutline size={20} color="#FFAD33" />
                     <p className="ml-2 font-primary font-semibold text-[14px] leading-[21px] text-[#979797]">
-                      {product.Sold}
+                      {product.sold}
                     </p>
                   </div>
                 </div>
